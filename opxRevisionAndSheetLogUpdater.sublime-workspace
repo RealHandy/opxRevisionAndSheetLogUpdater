@@ -1,0 +1,1405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rev_na",
+				"rev_named_param"
+			],
+			[
+				"Get",
+				"GetUpdaterId"
+			],
+			[
+				"is",
+				"is_revitrubyshell"
+			],
+			[
+				"file",
+				"file_load_path"
+			],
+			[
+				"revit",
+				"revitrubyshell_file_load_path"
+			],
+			[
+				"update",
+				"updateSheetRevisions"
+			],
+			[
+				"sheet",
+				"sheet_name_col"
+			],
+			[
+				"shet",
+				"sheet_issue_log"
+			],
+			[
+				"she",
+				"sheet_issue_log"
+			],
+			[
+				"shee",
+				"sheet_name"
+			],
+			[
+				"par",
+				"param_field"
+			],
+			[
+				"param",
+				"param_header_name"
+			],
+			[
+				"defin",
+				"Definition"
+			],
+			[
+				"GetField",
+				"GetFieldOrder"
+			],
+			[
+				"bo",
+				"body_data"
+			],
+			[
+				"sched",
+				"sched_def"
+			],
+			[
+				"paramet",
+				"ParameterGroup"
+			],
+			[
+				"bind",
+				"binding_map"
+			],
+			[
+				"Doc",
+				"DocumentChanged"
+			],
+			[
+				"Do",
+				"DocumentChanged"
+			],
+			[
+				"delet",
+				"deleted_rev_id"
+			],
+			[
+				"fie",
+				"fieldName"
+			],
+			[
+				"schedule",
+				"schedule_field_from_name"
+			],
+			[
+				"fiel",
+				"field_to_rename"
+			],
+			[
+				"rev_a",
+				"rev_named_params_param_group"
+			],
+			[
+				"rev_name",
+				"rev_named_params_param_group"
+			],
+			[
+				"Parameter",
+				"ParameterGroup"
+			],
+			[
+				"Para",
+				"ParameterId"
+			],
+			[
+				"Built",
+				"BuiltInParameterGroup"
+			],
+			[
+				"rev_",
+				"rev_updates_exist"
+			],
+			[
+				"rev",
+				"rev_updates_exist"
+			],
+			[
+				"remove",
+				"remove_rev_id_from_sheet"
+			],
+			[
+				"get",
+				"get_and_start_subtxn"
+			],
+			[
+				"GetAd",
+				"GetAddedElementIds"
+			],
+			[
+				"new",
+				"new_rev_ids"
+			],
+			[
+				"field",
+				"field_style"
+			],
+			[
+				"sub",
+				"sub_txn"
+			],
+			[
+				"change",
+				"changed_param"
+			],
+			[
+				"GetCha",
+				"GetChangeTypeAny"
+			],
+			[
+				"add",
+				"addInId"
+			],
+			[
+				"des",
+				"descParam"
+			],
+			[
+				"revsi",
+				"revisionsOnSheetParam"
+			],
+			[
+				"revision",
+				"revisionsOnSheetParam"
+			],
+			[
+				"act",
+				"ActiveAddInId"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"Rev",
+				"RevUpdater"
+			],
+			[
+				"schedu",
+				"schedulableFieldFromName"
+			],
+			[
+				"comm",
+				"commitTxnIfStartedHere"
+			],
+			[
+				"start",
+				"startTxnIfNoneExists"
+			],
+			[
+				"txn",
+				"txnCreated"
+			],
+			[
+				"my",
+				"myCategory"
+			],
+			[
+				"myC",
+				"myCategories"
+			],
+			[
+				"temp",
+				"tempFileName"
+			],
+			[
+				"shared",
+				"sharedParamFile"
+			],
+			[
+				"schedul",
+				"scheduleFieldFromName"
+			],
+			[
+				"fieldElemen",
+				"fieldElementType"
+			],
+			[
+				"famil",
+				"familyT"
+			],
+			[
+				"fam",
+				"famSymbol"
+			],
+			[
+				"portfo",
+				"portfolio-four"
+			],
+			[
+				"thum",
+				"thumb_info"
+			],
+			[
+				"portfolio_",
+				"portfolio_category"
+			],
+			[
+				"port",
+				"portfolio_taxs"
+			],
+			[
+				"near",
+				"nearIsFar"
+			],
+			[
+				"curren",
+				"currentFunction"
+			],
+			[
+				"cur",
+				"currentFunction"
+			],
+			[
+				"currn",
+				"currentFunction"
+			],
+			[
+				"curr",
+				"currentFunction"
+			],
+			[
+				"line",
+				"lineOfSightStyleNumber"
+			],
+			[
+				"poit",
+				"pointXYZ"
+			],
+			[
+				"tra",
+				"traceIsOn"
+			],
+			[
+				"ray",
+				"rayHeight"
+			],
+			[
+				"rat",
+				"rayHeight"
+			],
+			[
+				"fille",
+				"filledRegionType"
+			],
+			[
+				"curve",
+				"curveArray"
+			],
+			[
+				"termin",
+				"terminatingPolygonLine"
+			],
+			[
+				"frst",
+				"firstRayIndex"
+			],
+			[
+				"last",
+				"lastRayIndex"
+			],
+			[
+				"first",
+				"firstRayIndex"
+			],
+			[
+				"firs",
+				"firstRayIndex"
+			],
+			[
+				"fir",
+				"firstRayIndex"
+			],
+			[
+				"visi",
+				"visibilityPoint"
+			],
+			[
+				"origin",
+				"originatingPolygonLineTerminus"
+			],
+			[
+				"orig",
+				"originatingPolygonLine"
+			],
+			[
+				"nearest",
+				"nearestElement"
+			],
+			[
+				"elements",
+				"elementsByProximity"
+			],
+			[
+				"ne",
+				"nearestElement"
+			],
+			[
+				"next",
+				"nextElement"
+			],
+			[
+				"hits",
+				"hitList"
+			],
+			[
+				"element",
+				"elementsByProximity"
+			],
+			[
+				"elemen",
+				"elementsByProximity"
+			],
+			[
+				"elmen",
+				"elementsByProximity"
+			],
+			[
+				"el",
+				"elementsByProximity"
+			],
+			[
+				"elem",
+				"elementsByProximity"
+			],
+			[
+				"hti",
+				"hitList"
+			],
+			[
+				"at",
+				"atOrigin"
+			],
+			[
+				"did",
+				"didHitSomething"
+			],
+			[
+				"prox",
+				"proximity"
+			],
+			[
+				"rayElement",
+				"RayElementHits"
+			],
+			[
+				"hit",
+				"hitList"
+			],
+			[
+				"Ra",
+				"RayElementHit"
+			],
+			[
+				"ele",
+				"elementId"
+			],
+			[
+				"Ray",
+				"RayElementHits"
+			],
+			[
+				"corn",
+				"cornerHits"
+			],
+			[
+				"far",
+				"farLineOfSightLimitXYZ"
+			],
+			[
+				"other",
+				"otherRay"
+			],
+			[
+				"othe",
+				"otherRay"
+			],
+			[
+				"deg",
+				"degrees"
+			],
+			[
+				"set",
+				"setDirXYZ"
+			],
+			[
+				"d",
+				"dirXYZ"
+			],
+			[
+				"long",
+				"longerRayLength"
+			],
+			[
+				"lin",
+				"lineOfSightStyleNumber"
+			],
+			[
+				"det",
+				"definesLineOfSight"
+			],
+			[
+				"Line",
+				"LineStyle"
+			],
+			[
+				"ner",
+				"nearLineOfSightLimitXYZ"
+			],
+			[
+				"source",
+				"sourceRay"
+			],
+			[
+				"oth",
+				"otherRay"
+			],
+			[
+				"connect",
+				"connectRay"
+			],
+			[
+				"cot",
+				"continue"
+			],
+			[
+				"point",
+				"pointXYZ"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"prio",
+				"priorRay"
+			],
+			[
+				"dr",
+				"drawRays"
+			],
+			[
+				"refe",
+				"refWithContext"
+			],
+			[
+				"prior",
+				"priorRay"
+			],
+			[
+				"di",
+				"dirXYZ"
+			],
+			[
+				"poin",
+				"pointXYZ"
+			],
+			[
+				"vis",
+				"visibilityPoint"
+			],
+			[
+				"Vis",
+				"VisibilityPoint"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "revisionUpdater.rb",
+			"settings":
+			{
+				"buffer_size": 9125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dbgp.rb",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ThisApplication.rb",
+			"settings":
+			{
+				"buffer_size": 1740,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sheetRevisionChangeUpdater.rb",
+			"settings":
+			{
+				"buffer_size": 18911,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "updateSheetRevisions.rb",
+			"settings":
+			{
+				"buffer_size": 16857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 5 files for \"is_revitrubyshell\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n   18  file_load_path ||= revitrubyshell_file_load_path\n   19  $LOAD_PATH.unshift(file_load_path)\n   20: $is_revitrubyshell = file_load_path == revitrubyshell_file_load_path\n   21  \n   22  $debug_level = 1\n   23  def dbgp( str, level = 1 )\n   24      # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   25:     if is_revitrubyshell\n   26          $debug_level >= level ? puts( str ) : nil\n   27      else\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n   13  file_load_path ||= revitrubyshell_file_load_path\n   14  $LOAD_PATH.unshift(file_load_path)\n   15: $is_revitrubyshell = file_load_path == revitrubyshell_file_load_path\n   16  \n   17  $debug_level = 1\n   18  def dbgp( str, level = 1 )\n   19      # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   20:     if is_revitrubyshell\n   21          $debug_level >= level ? puts( str ) : nil\n   22      else\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n   14  file_load_path ||= revitrubyshell_file_load_path\n   15  $LOAD_PATH.unshift(file_load_path)\n   16: $is_revitrubyshell = file_load_path == revitrubyshell_file_load_path\n   17  \n   18  $debug_level = 1\n   19  def dbgp( str, level = 1 )\n   20      # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   21:     if is_revitrubyshell\n   22          $debug_level >= level ? puts( str ) : nil\n   23      else\n\n6 matches across 3 files\n\n\nSearching 5 files for \"doc changed handler\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  219      def on_doc_changed_new_revision_handler( sender, args )\n  220          begin\n  221:         dbgp \"In the doc changed handler\"\n  222          # If this was the creation of a new revision, rather than a sheet rev change, add a trigger for the rev-named param and get out.\n  223          doc = args.GetDocument() \n  ...\n  226              new_ids.each do |new_id|\n  227                  e = doc.GetElement( new_id )\n  228:                 dbgp \"Doc changed handler modified ID #{new_id.IntegerValue}, #{e.Name}, #{e.GetType().Name}, #{e.get_Parameter( $revision_name_param_name ) != nil ? e.get_Parameter( $revision_name_param_name ).AsString() : ''}, #{e.Category != nil ? e.Category.Name : ''}\"\n  229              end\n  230          end\n\n2 matches in 1 file\n\n\nSearching 5 files for \"puts\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n   11  # and it's something else for the macro default directory.\n   12  #$LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__)))\n   13: #puts \"current path is #{File.expand_path(File.dirname(__FILE__))}\"\n   14  \n   15  # If there is an installed macro, ThisApplication.rb sets the env variable. Otherwise, I'm working in RevitRubyShell and working from my repo dir.\n   ..\n   22  $debug_level = 1\n   23  def dbgp( str, level = 1 )\n   24:     # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   25      if $is_revitrubyshell\n   26:         $debug_level >= level ? puts( str ) : nil\n   27      else\n   28          $debug_level >= level ? TaskDialog.Show(\"Macro\", str) : nil\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n   17  $debug_level = 1\n   18  def dbgp( str, level = 1 )\n   19:     # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   20      if $is_revitrubyshell\n   21:         $debug_level >= level ? puts( str ) : nil\n   22      else\n   23          $debug_level >= level ? TaskDialog.Show(\"Macro\", str) : nil\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n   18  $debug_level = 1\n   19  def dbgp( str, level = 1 )\n   20:     # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   21      if $is_revitrubyshell\n   22:         $debug_level >= level ? puts( str ) : nil\n   23      else\n   24          $debug_level >= level ? TaskDialog.Show(\"Macro\", str) : nil\n\n7 matches across 3 files\n\n\nSearching 5 files for \"add_rev\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n   91                          sub_txn ||= get_and_start_subtxn( doc )\n   92                          dbgp \"sub_txn is #{sub_txn.to_s}\"\n   93:                         add_rev_id_to_sheet( sheet, rev.Id, sub_txn )\n   94                          set_rev_update_to_force( sheet, rev.Id )\n   95                      elsif ( (not is_checked) and sheet_contains_removable_rev_id( sheet, rev.Id ) )\n   ..\n  178  \n  179      #------------------\n  180:     def add_rev_named_param_triggers_for_doc( doc )\n  181  \n  182          # Get a list of all the revisions. The sheet parameters having names that match revision names will be change triggers.\n  ...\n  213  \n  214      #------------------\n  215:     def on_doc_opened_add_rev_param_triggers_handler( sender, args )\n  216          # This will run on every project open, so that the rev-named params for that doc have triggers.\n  217          doc = args.Document\n  218:         add_rev_named_param_triggers_for_doc( doc )\n  219      end\n  220  \n  ...\n  267                  if sheet_contains_rev_id( sheet, rev_id )\n  268                      remove_rev_id_from_sheet( sheet, rev_id, txn )\n  269:                     add_rev_id_to_sheet( sheet, rev_id, txn )\n  270                  else\n  271:                     add_rev_id_to_sheet( sheet, rev_id, txn )\n  272                      remove_rev_id_from_sheet( sheet, rev_id, txn )\n  273                  end\n  ...\n  294      # For RevitRubyShell work with already-opened project. Doc will be nil when the OnStartup installs the macro.\n  295      if doc\n  296:         add_rev_named_param_triggers_for_doc( doc )\n  297      end\n  298  \n  ...\n  343      # AddTrigger cannot be called from within Execute().\n  344      dbgp \"Register new rev DocumentOpened handler\"\n  345:     app.DocumentOpened.Add( updater.method(:on_doc_opened_add_rev_param_triggers_handler) )\n  346      dbgp \"Register new rev DocumentChanged handler\"\n  347     	app.DocumentChanged.Add( updater.method(:on_doc_changed_new_revision_handler) )\n  ...\n  369          # These calls do not work. The methods do not get removed from the handler.\n  370          app.DocumentChanged.Remove( updater.method(:on_doc_changed_new_revision_handler) )\n  371:         app.DocumentOpened.Remove( updater.method(:on_doc_opened_add_rev_param_triggers_handler) )\n  372          ui_app.Idling.Remove( updater.method(:on_idle_force_revision_schedule_update_handler) )\n  373      rescue Exception => e\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n  328  \n  329  #---------------------------------------------\n  330: def add_rev_id_to_sheet( sheet, rev_id, txn = nil )\n  331  	txn, txn_created = start_txn_if_none_exists( sheet.Document, txn )\n  332  \n\n10 matches across 2 files\n\n\nSearching 5 files for \"updater id is\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n  165          \n  166      	updater = RevisionUpdater.new( app.ActiveAddInId )\n  167:         dbgp \"Updater id is #{updater.GetUpdaterId()}\"\n  168      \n  169      	UpdaterRegistry.RegisterUpdater(updater)\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  292  \n  293  	updater = SheetRevisionChangeUpdater.new( app.ActiveAddInId )\n  294:     dbgp \"Updater id is #{updater.GetUpdaterId()}\"\n  295      UpdaterRegistry.RegisterUpdater( updater )\n  296  \n\n2 matches across 2 files\n\n\nSearching 5 files for \"updater id is\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n  165          \n  166      	updater = RevisionUpdater.new( app.ActiveAddInId )\n  167:         dbgp \"Updater id is #{updater.GetUpdaterId()}\"\n  168      \n  169      	UpdaterRegistry.RegisterUpdater(updater)\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  292  \n  293  	updater = SheetRevisionChangeUpdater.new( app.ActiveAddInId )\n  294:     dbgp \"Updater id is #{updater.GetUpdaterId().GetGUID()}\"\n  295      UpdaterRegistry.RegisterUpdater( updater )\n  296  \n\n2 matches across 2 files\n\n\nSearching 5 files for \"sheet.name\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n   72                      # Copy the value of the old param to the new param.\n   73                      #sheet.get_Parameter( new_rev_name ).Set( 0 )\n   74:                     dbgp \"Initializing to 'No' param #{new_rev_name} for sheet #{ sheet.Name }\"\n   75                      set_rev_param_on_sheet( sheet, sheet.get_Parameter( new_rev_name ), 0 )\n   76                  end\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n   73          changed_ids.each do |id|\n   74              sheet = doc.GetElement( id )\n   75:             dbgp \"Working on change of: #{sheet.Name}, Type: #{sheet.GetType().Name}\"\n   76              # Check if each rev-named parameter was changed.\n   77              # There could be more than one rev param changed at the same time.\n   ..\n   80                  dbgp \"Param name is #{param.Definition.name}\"\n   81                  if data.IsChangeTriggered( id, Element.GetChangeTypeParameter( param ) )\n   82:                     dbgp \"PARAMETER change for: #{sheet.Name}, Param: #{param.Definition.Name}\"\n   83                      changed_param = param\n   84                      sheetParam = sheet.get_Parameter( param.Definition.Name )\n   ..\n  114              # to detect changes to Revisions on Sheet as a parameter-specific trigger.\n  115              if not changed_param\n  116:                 dbgp \"ANY change for: #{sheet.Name}, Type: #{sheet.GetType().Name}\"\n  117                  # User may have changed the Revisions on Sheet. Compare those values to the params and update any params.\n  118                  rev_ids = sheet.GetAllProjectRevisionIds()\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n  222  # (which you'd think was in the SectionType.Header, but isn't -- it's the first row of SectionType.Body).\n  223  def row_and_column_of_param_in_schedule_body( sched, sheet, param )\n  224: 	sheet_name = sheet.Name\n  225  	row = nil\n  226  \n\n5 matches across 3 files\n\n\nSearching 5 files for \"add_rev_named_param_triggers_for_doc\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  180  \n  181      #------------------\n  182:     def add_rev_named_param_triggers_for_doc( doc )\n  183  \n  184          # Get a list of all the revisions. The sheet parameters having names that match revision names will be change triggers.\n  ...\n  218          # This will run on every project open, so that the rev-named params for that doc have triggers.\n  219          doc = args.Document\n  220:         add_rev_named_param_triggers_for_doc( doc )\n  221      end\n  222  \n  ...\n  297      # For RevitRubyShell work with already-opened project. Doc will be nil when the OnStartup installs the macro.\n  298      if doc\n  299:         updater.add_rev_named_param_triggers_for_doc( doc )\n  300      end\n  301  \n\n3 matches in 1 file\n\n\nSearching 5 files for \"rev_named_params_list\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n   56          # Get the list of all params that are named after revs. This is to see if the change is an ANY or PARAMETER change.\n   57          # Just do this every time, since it's fast, easier, and less error-prone than trying to cache them across Execute() actions.\n   58:         param_list = rev_named_params_list( doc )\n   59  \n   60          # Get a map of revisions by name, for performance reasons.\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n   73  \n   74  #---------------------------------------------\n   75: def rev_named_params_list( doc )\n   76      # Get the list of all params that are named after revs.\n   77      # This requires that there be at least one sheet in the project.\n\n2 matches across 2 files\n\n\nSearching 5 files for \"sheet_param_from_name\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n   94  \n   95  #---------------------------------------------\n   96: def sheet_param_from_name( doc, name )\n   97  \n   98      # This requires that there be at least one sheet in the project.\n   ..\n  168  			# Confirm that the field is a param in the param group that holds rev-named params.\n  169  			# Otherwise, it could be some non-rev-named param that a user added to the sheet issue log.\n  170: 			r = sheet_param_from_name( sched.Document, fieldName )\n  171  			if r.Definition.ParameterGroup == $rev_named_params_param_group\n  172  				dbgp \"field name '#{fieldName}' does not match any rev name and is in #{r.Definition.ParameterGroup.to_s}\"\n\n2 matches in 1 file\n\n\nSearching 5 files for \"in the doc changed\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  240      def on_doc_changed_new_revision_handler( sender, args )\n  241          begin\n  242:             dbgp \"In the doc changed handler\"\n  243              # If this was the creation of a new revision, rather than a sheet rev change, add a trigger for the rev-named param and get out.\n  244              doc = args.GetDocument() \n\n1 match in 1 file\n\n\nSearching 5 files for \"add_new\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n   65                  sub_txn ||= get_and_start_subtxn( doc )\n   66                  sched = schedule_from_name( doc, $sheet_issue_log_name )\n   67:                 add_new_field_to_sheet_list( sched, new_rev_name, ParameterType.YesNo, sub_txn )\n   68              end\n   69  \n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  204                  dbgp \"Adding missing sheet revision param '#{rev_name}'\"\n  205                  sched = schedule_from_name( doc, $sheet_issue_log_name )\n  206:                 add_new_field_to_sheet_list( sched, rev_name, ParameterType.YesNo )\n  207                  sheet_rev_param = sheet.get_Parameter( rev_name )\n  208                  #TaskDialog.Show( \"No '#{rev_name}' Sheet Parameter\", \"There is no parameter named #{rev_name}. The sheet revision automation can't work without a YesNo parameter named '#{rev_name}'.\" )\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n  433  #---------------------------------------------\n  434  # When adding a new param field, also explicitly set the value to 0 in every sheet to avoid the \"ghost checkbox == not checked\" UI.\n  435: def add_new_field_to_sheet_list( sched, param_name, param_type, txn = nil, atIndex = nil )\n  436  dbgp \"1\"\n  437  	added_field = add_field_to_sheet_list( sched, param_name, param_type, txn, atIndex )\n\n3 matches across 3 files\n\n\nSearching 5 files for \"add_rev_named_param\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n  181  \n  182      #------------------\n  183:     def add_rev_named_param_triggers_for_doc( doc )\n  184  \n  185          # Get a list of all the revisions. The sheet parameters having names that match revision names will be change triggers.\n  ...\n  222              doc = args.Document\n  223              dbgp \"In doc created handler for doc #{doc.Title}\"\n  224:             add_rev_named_param_triggers_for_doc( doc )\n  225          end\n  226      end\n  ...\n  233              doc = args.Document\n  234              dbgp \"In doc opened handler for doc #{doc.Title}\"\n  235:             add_rev_named_param_triggers_for_doc( doc )\n  236          end\n  237      end\n  ...\n  316      # For RevitRubyShell work with already-opened project. Doc will be nil when the OnStartup installs the macro.\n  317      if doc\n  318:         updater.add_rev_named_param_triggers_for_doc( doc )\n  319      end\n  320  \n\n4 matches in 1 file\n\n\nSearching 5 files for \"puts\"\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\revisionUpdater.rb:\n   10  # For whatever reason, the C:\\Program Files\\Autodesk\\Revit 2014 directory is listed as the default directory.\n   11  #$LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__)))\n   12: #puts \"current path is #{File.expand_path(File.dirname(__FILE__))}\"\n   13  \n   14  # If there is an installed macro, ThisApplication.rb sets the env variable. Otherwise, I'm working in RevitRubyShell and working from my repo dir.\n   ..\n   21  $debug_level = 0\n   22  def dbgp( str, level = 1 )\n   23:     # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   24      if $is_revitrubyshell\n   25:         $debug_level >= level ? puts( str ) : nil\n   26      else\n   27          $debug_level >= level ? TaskDialog.Show(\"Macro\", str) : nil\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\sheetRevisionChangeUpdater.rb:\n   18  $debug_level = 0\n   19  def dbgp( str, level = 1 )\n   20:     # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   21      if $is_revitrubyshell\n   22:         $debug_level >= level ? puts( str ) : nil\n   23      else\n   24          $debug_level >= level ? TaskDialog.Show(\"Macro\", str) : nil\n\nS:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater\\updateSheetRevisions.rb:\n   18  $debug_level = 0\n   19  def dbgp( str, level = 1 )\n   20:     # If in RevitRubyShell, debug with puts. If in Revit macro, use dialog boxes.\n   21      if $is_revitrubyshell\n   22:         $debug_level >= level ? puts( str ) : nil\n   23      else\n   24          $debug_level >= level ? TaskDialog.Show(\"Macro\", str) : nil\n\n7 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 18058,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/opxRevisionAndSheetLogUpdater/push_loadpath.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/RevisionAndSheetLogUpdater/ThisApplication2.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/RevisionAndSheetLogUpdater/opxRevisionAndSheetLogUpdater.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/RevisionAndSheetLogUpdater/opxRevisionAndSheetLogUpdater.cs",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/sheetRevisionChangeUpdater.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/revisionUpdater.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/updateSheetRevisions.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/SheetAndSchedule.sublime-project",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/testUpdater.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/STARTING SAVE comparison of Updater vs non-updater.txt",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/requirePath.rb",
+		"/S/OPX_StuffFOLDERS/SoftwareDev/Revit/SheetAndSchedule/sample2.rb",
+		"/C/Users/holmesa/AppData/Local/Temp/Temp1_cp231-2-putting-the-i-in-bim-parameters-in-the-revit-api.docx.zip/word/document.xml",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/revitPythonVisibility.py",
+		"/C/Users/holmesa/Documents/GitHub/depthmapX/depthmapX/UI/AgentAnalysisDlg.ui",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/ListOfElementStuff.txt",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/LeedVisibility.rfa",
+		"/C/Users/holmesa/Desktop/header.php",
+		"/C/Users/holmesa/Desktop/desaturate.svg",
+		"/C/Users/holmesa/Desktop/functions.php",
+		"/C/Users/holmesa/Desktop/portfolio-four-column.php",
+		"/C/Users/holmesa/Documents/code/depthmapX-master/depthmapX/depthmapView.cpp",
+		"/C/Users/holmesa/Desktop/custom.css",
+		"/C/Users/holmesa/Desktop/single-avada_portfolio.php",
+		"/C/Users/holmesa/Documents/GitHub/depthmapX/depthmapX/depthmapView.cpp",
+		"/H/3200_3299/3215_Wilkinson Barker Knauer/3215_IOE/03 Focus Groups/Notes/3215_WBK_FocusGroupNotes_Andy copy for working in parallel2.xlsm",
+		"/S/OPX_StuffFOLDERS/IOE/Recovered/00000034.xlsx",
+		"/Q/9998_Marketing/Website/New website based on avada theme/Avada theme files/Avada/portfolio-four-column.php",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/zero length line output 3.txt",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/revitPythonVisibility_old_with_things_that_dont_work.py",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/Trace Error with null line, 0 length line due to false inside report from corner hit.txt",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/another test.py",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/space_qty_1",
+		"/C/Users/holmesa/Desktop/portfolio-four-column 2.php",
+		"/C/Users/holmesa/Downloads/Avada 3.1.1/package/avada theme/Avada.zip",
+		"/Q/9998_Marketing/Website/New website based on avada theme/Avada theme files/Avada/single-avada_portfolio.php",
+		"/Q/9998_Marketing/Website/2013 Website/avada theme/package/Avada/Avada/single-avada_portfolio.php",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/zero length line output 2.txt",
+		"/C/Users/holmesa/Documents/Results-3/SurveySummary_06102013.xml",
+		"/C/Users/holmesa/Downloads/Default.page.template",
+		"/C/Users/holmesa/Documents/My Web Sites/website/default.aspx.cs",
+		"/C/Users/holmesa/Documents/My Web Sites/website/resetPassword.aspx.cs",
+		"/C/Users/holmesa/Documents/My Web Sites/website/default.aspx",
+		"/C/Users/holmesa/Documents/My Web Sites/website/registration.aspx",
+		"/C/Users/holmesa/Documents/My Web Sites/website/resetPassword.aspx",
+		"/C/Users/holmesa/Documents/My Web Sites/website/app/changePassword.aspx",
+		"/C/Users/holmesa/Documents/Visual Studio 2012/Projects/ParameterValuesFromImage/CS/ParameterValuesFromImage.addin",
+		"/C/Users/holmesa/Documents/Visual Studio 2012/Projects/ParameterValuesFromImage/CS/ParameterValuesFromImage2013.addin",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/UtilsForIntersections.py",
+		"/C/Users/holmesa/Documents/roofsrooms/SDK/Samples/RoofsRooms/CS/GeomUtil.cs",
+		"/S/OPX_StuffFOLDERS/IOE/Revit/Older Versions/revitPythonVisibility_old_with_things_that_dont_work.py",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/AreSolidsCutBy.py",
+		"/C/Users/holmesa/Documents/Autodesk/My Projects/areSolidsCut.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sheet_issue_log",
+			"puts",
+			"sheet",
+			"sheets_filter",
+			"add_rev_named_param",
+			"add_new",
+			"in the doc changed",
+			"sheet_param_from_name",
+			"rev_named_params_list",
+			"add_rev_named_param_triggers_for_doc",
+			"add_new",
+			"puts",
+			"add_field_",
+			", 1",
+			"add_rev_named_param_triggers_for_doc",
+			"doc is",
+			"sheet.name",
+			"updater id is",
+			"updater ",
+			"updater is",
+			"updater",
+			"parameter to sheets",
+			"updater for new",
+			"triggers_for_doc",
+			"add_rev_named_param_triggers_for_doc",
+			"add_rev",
+			"puts",
+			"raise",
+			"doc changed handler",
+			"registering the",
+			"$$is_revitrubyshell",
+			"is_revitrubyshell",
+			"$doc",
+			"\\",
+			"body_data.FirstColumnNumber + 1",
+			"sheetNameCol",
+			".set",
+			"param.definition.name",
+			"param.name",
+			".name",
+			".set(",
+			".body",
+			"rev_name",
+			"contains is",
+			"revs_hash",
+			"sheet_param_from_name",
+			"get_parameter",
+			"sheet_param_from_name",
+			"from_name",
+			"revision_from_name",
+			"puts",
+			"parameterid=",
+			"Count",
+			"Count,",
+			"getchangetypeparam",
+			"main_app",
+			"gettemp",
+			"oriFile",
+			"tempFileName",
+			"e.to_s",
+			"sched_def",
+			"parametersmap",
+			".definition.name",
+			"add_field",
+			"contains(",
+			"pg_general",
+			"revs",
+			"get_para",
+			"general",
+			"doc",
+			"remove_rev_id_from_sheet",
+			"update_revisions_for_sheet",
+			"add_field_to_sheet_list",
+			"schedulable_",
+			"schedule_field_from_name",
+			"doc",
+			"sheet_id",
+			"uiapp",
+			"to_clr",
+			"element.new",
+			"xxx",
+			"after commit",
+			"sub_txn",
+			"filter",
+			"to_clr",
+			".new",
+			"clr",
+			"typeof",
+			"type_of",
+			"get_",
+			"set_",
+			"sheetrevisionchangeupdater",
+			"revisionupdater",
+			"add_in",
+			"\"Revision Description\"",
+			"sheet revision change up",
+			"$doc",
+			"has",
+			" has",
+			"has revision",
+			" then",
+			"schedulableFields",
+			"schedFieldIds",
+			"rev_id",
+			"rev.Id.IntegerValue",
+			"rev.id",
+			".new",
+			"|=",
+			"doc",
+			"print",
+			"revs:",
+			"revision_from",
+			"print",
+			"revision_from_name",
+			"revisions_from_name",
+			"param.Name",
+			"param",
+			".definition",
+			"add_field",
+			"puts",
+			"isChecked",
+			"param_name",
+			"puts",
+			"print",
+			"\\n",
+			"sheet_list_category_id",
+			"addFieldToSheetList",
+			"RegisterUpdater"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dbgp",
+			"$is_revitrubyshell",
+			"\\\\",
+			"sheet_name_col",
+			"original_shared_file",
+			"temp_file_name",
+			"$revision_name_param_name",
+			"",
+			"schedulable_fields",
+			"sched",
+			"schedulable_fields",
+			"sched_field_ids",
+			"rev.Id",
+			"rev.Id.IntegerValue",
+			"||=",
+			"dbgp",
+			"param.Definition.Name",
+			"print",
+			"is_checked",
+			"dbgp",
+			"puts",
+			"",
+			"add_field_to_sheet_list",
+			"unregister_updater",
+			"register_updater",
+			"unregister_updater",
+			"register_updater",
+			"unregister_updater",
+			"register_updater",
+			"add_in_id",
+			"sub_txn",
+			"rev_name",
+			"new_rev_id",
+			"_rev_id",
+			"_rev_ids",
+			"new_rev_ids",
+			"updater_id",
+			"app_id",
+			"rev_param_name",
+			"add_field_to_sheet_list",
+			"field_element_type",
+			"field_element",
+			"field_to_add",
+			"sched_def",
+			"rev_id",
+			"new_param_def",
+			"temp_def_group",
+			"shared_param_file",
+			"binding_map",
+			"instance_binding",
+			"category",
+			"categories",
+			"param_type",
+			"param_name",
+			"main_app",
+			"txn_created",
+			"add_project_parameter_to_sheets",
+			"remove_rev_id_from_sheet",
+			"update_revisions_for_sheet",
+			"commit_txn_if_started_here",
+			"start_txn_if_none_exists",
+			"revision_from_name",
+			"schedulable_field_from_name",
+			"schedule_field_from_name",
+			"schedule_from_name",
+			"sheet_from_name",
+			"sheet_issue_log_name",
+			"sheet_list_category_id",
+			"debug_level",
+			"params_map",
+			"param_name",
+			"desc_param",
+			"rev_filter",
+			"params_map",
+			"param_name",
+			"revisions_on_sheet_param",
+			"sheets_filter",
+			"updater_id",
+			"app_id",
+			"RevisionUpdater",
+			"changedElemId",
+			"changedSheetIds",
+			"SheetRevisionChangeUpdater",
+			"NewRevisionUpdater",
+			"newRevisionUpdater",
+			"revFilter",
+			"RevUpdater",
+			"startTxnIfNoneExists( doc, txn",
+			"45",
+			"AI45",
+			"X45",
+			"W45",
+			"AE",
+			"",
+			"45",
+			"",
+			"V45",
+			"U45",
+			"45",
+			"isCoincidentWithFace",
+			"visibilityEdge.visibilityWall.face",
+			"visibilityEdge.visibilityWall.wall",
+			"visibilityEdges[edge].intersectingWall",
+			"visibilityEdges[edge].intersectingWallFace",
+			"visibilityWalls[wall].face",
+			"[wall].visibilityEdges",
+			"",
+			"radians(degrees)",
+			"elementHit",
+			"priorRayElementHit",
+			"elementHitByRay",
+			"\\t",
+			"#print $1\\n",
+			"print $1\\n",
+			"UtilsForIntersections",
+			"#print \"[",
+			"#print $1\\n",
+			"print $1\\n",
+			"possibleSubsetFace",
+			"abs",
+			"IsAlmostEqualTo",
+			"if is",
+			"isinstance\\( face, $1 \\):",
+			"isinstance\\( face, (1) \\):",
+			"isinstance( face, (1)):",
+			"\\t",
+			"collector",
+			"or"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "revisionUpdater.rb",
+					"settings":
+					{
+						"buffer_size": 9125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dbgp.rb",
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ThisApplication.rb",
+					"settings":
+					{
+						"buffer_size": 1740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sheetRevisionChangeUpdater.rb",
+					"settings":
+					{
+						"buffer_size": 18911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "updateSheetRevisions.rb",
+					"settings":
+					{
+						"buffer_size": 16857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 18058,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										234,
+										251
+									],
+									[
+										471,
+										488
+									],
+									[
+										765,
+										782
+									],
+									[
+										1002,
+										1019
+									],
+									[
+										1290,
+										1307
+									],
+									[
+										1527,
+										1544
+									],
+									[
+										1903,
+										1922
+									],
+									[
+										2240,
+										2259
+									],
+									[
+										2815,
+										2819
+									],
+									[
+										3154,
+										3158
+									],
+									[
+										3269,
+										3273
+									],
+									[
+										3579,
+										3583
+									],
+									[
+										3694,
+										3698
+									],
+									[
+										3998,
+										4002
+									],
+									[
+										4113,
+										4117
+									],
+									[
+										4546,
+										4553
+									],
+									[
+										4831,
+										4838
+									],
+									[
+										5092,
+										5099
+									],
+									[
+										5300,
+										5307
+									],
+									[
+										5539,
+										5546
+									],
+									[
+										5636,
+										5643
+									],
+									[
+										5939,
+										5946
+									],
+									[
+										6199,
+										6206
+									],
+									[
+										6650,
+										6657
+									],
+									[
+										6984,
+										6991
+									],
+									[
+										7368,
+										7381
+									],
+									[
+										7666,
+										7679
+									],
+									[
+										8021,
+										8034
+									],
+									[
+										8319,
+										8332
+									],
+									[
+										8822,
+										8832
+									],
+									[
+										9196,
+										9206
+									],
+									[
+										9622,
+										9632
+									],
+									[
+										9989,
+										9999
+									],
+									[
+										10528,
+										10538
+									],
+									[
+										10805,
+										10841
+									],
+									[
+										11159,
+										11195
+									],
+									[
+										11394,
+										11430
+									],
+									[
+										11926,
+										11947
+									],
+									[
+										12201,
+										12222
+									],
+									[
+										12611,
+										12632
+									],
+									[
+										12946,
+										12967
+									],
+									[
+										13465,
+										13483
+									],
+									[
+										13991,
+										13998
+									],
+									[
+										14383,
+										14390
+									],
+									[
+										15029,
+										15036
+									],
+									[
+										15448,
+										15467
+									],
+									[
+										15769,
+										15788
+									],
+									[
+										15980,
+										15999
+									],
+									[
+										16226,
+										16245
+									],
+									[
+										16625,
+										16629
+									],
+									[
+										16964,
+										16968
+									],
+									[
+										17079,
+										17083
+									],
+									[
+										17389,
+										17393
+									],
+									[
+										17504,
+										17508
+									],
+									[
+										17808,
+										17812
+									],
+									[
+										17923,
+										17927
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								16316,
+								16316
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 14,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5445.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}
