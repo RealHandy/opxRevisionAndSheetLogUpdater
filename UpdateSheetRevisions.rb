@@ -1,3 +1,15 @@
+# UpdateSheetRevisions.rb
+# ThisApplication.rb sets the env variable. Otherwise, I'm working in RevitRubyShell and working from my repo dir.
+revitrubyshell_file_load_path = 'S:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\opxRevisionAndSheetLogUpdater'
+file_load_path = ENV.fetch("opx_file_load_path")
+file_load_path ||= revitrubyshell_file_load_path
+$LOAD_PATH.unshift(file_load_path)
+$is_revitrubyshell = ( file_load_path == revitrubyshell_file_load_path )
+
+require 'dbgp'
+include OPX
+dbgp "Loading updateSheetRevisions.rb"
+
 load_assembly 'RevitAPI'
 load_assembly 'RevitAPIUI'
 include Autodesk::Revit
@@ -5,19 +17,10 @@ include Autodesk::Revit::UI
 include Autodesk::Revit::DB
 include Autodesk::Revit::DB::Architecture
 
+module OPX
+
 $revision_name_param_name = "Revision Description"
 $rev_named_params_param_group = BuiltInParameterGroup.PG_GENERAL
-
-# ThisApplication.rb sets the env variable. Otherwise, I'm working in RevitRubyShell and working from my repo dir.
-revitrubyshell_file_load_path = 'S:\\OPX_StuffFOLDERS\\SoftwareDev\\Revit\\RevisionAndSheetLogUpdater'
-file_load_path = ENV.fetch("opx_file_load_path")
-file_load_path ||= revitrubyshell_file_load_path
-$LOAD_PATH.unshift(file_load_path)
-$is_revitrubyshell = ( file_load_path == revitrubyshell_file_load_path )
-
-require 'dbgp'
-
-dbgp "Loading updateSheetRevisions.rb"
 
 #$sheet_list_category_id = -2003100  # CategoryId for sheet lists. Can't find this defined anywhere, just seems to be the case. FYI.
 $sheet_issue_log_name = "000 SHEET ISSUE LOG"
@@ -325,10 +328,10 @@ def add_rev_id_to_sheet( sheet, rev_id, txn = nil )
 	# Get the array of revisions that can be changed by the user.
 	# Revision cloud revisions are not changeable by the user and won't be in this list.
 	revs = sheet.GetAdditionalProjectRevisionIds()
-	dbgp "Current revs: #{revs.to_s}, count = #{revs.Count()}"
+	dbgp "Current editable revs: #{revs.to_s}, count = #{revs.Count()}"
 
-	revs = sheet.GetAllProjectRevisionIds()
-	dbgp "All revs before save: #{revs.to_s}"
+	all_revs = sheet.GetAllProjectRevisionIds()
+	dbgp "All revs before save: #{all_revs.to_s}"
 
 	# Add rev_id to array.
 	revs.Add( rev_id )
@@ -337,8 +340,8 @@ def add_rev_id_to_sheet( sheet, rev_id, txn = nil )
 	# Saved the updated revisions array.
 	update_revisions_for_sheet( sheet, revs, txn )
 	# Odd. The GetAll below doesn't reflect the newly added one. sub_txn doesn't show up until commit?
-	revs = sheet.GetAllProjectRevisionIds()
-	dbgp "All revs after save: #{revs.to_s}"
+	all_revs = sheet.GetAllProjectRevisionIds()
+	dbgp "All revs after save: #{all_revs.to_s}"
 
 	commit_txn_if_started_here( txn, txn_created )
 end
@@ -432,7 +435,7 @@ def add_new_field_to_sheet_list( sched, param_name, param_type, txn = nil, atInd
 end
 
 #---------------------------------------------
-def remove_field_from_sheet_list( sched, param_name, param_type, txn = nil )
+def remove_field_from_sheet_list( sched, param_name, txn = nil )
 	# Start a transaction.
 	txn, txn_created = start_txn_if_none_exists( sched.Document, txn )
 
@@ -442,13 +445,29 @@ def remove_field_from_sheet_list( sched, param_name, param_type, txn = nil )
 	field_to_remove = schedule_field_from_name( sched, param_name )
 	sched_def.RemoveField( field_to_remove.FieldId )
 	
+	# Commit the transaction.
+	commit_txn_if_started_here( txn, txn_created )
+end
+
+#---------------------------------------------
+def delete_shared_parameter( sched, param, txn = nil )
+	# Start a transaction.
+	txn, txn_created = start_txn_if_none_exists( sched.Document, txn )
+
 	# Remove the parameter from the project.
-	param_def = create_shared_param_def_with_temp_file( sched.Document, param_name, param_type )
+	dbgp "Delete parameter #{param.Definition.Name}"
 	binding_map = sched.Document.ParameterBindings
-	binding_map.Remove( param_def )
+	binding_map.Remove( param.Definition )
 
 	# Commit the transaction.
 	commit_txn_if_started_here( txn, txn_created )
+end
+
+#---------------------------------------------
+def sheet_has_rev_clouds_for_revision( sheet, rev_id )
+	# For now, just see if this rev is manually removable.
+	# NOT being removable means there ARE rev clouds for this revision.
+	return (not sheet_contains_removable_rev_id( sheet, rev_id ))
 end
 
 #--------------
@@ -461,3 +480,4 @@ end
 #param = paramsMap.Item("Revisions on Sheet")
 
 
+end
