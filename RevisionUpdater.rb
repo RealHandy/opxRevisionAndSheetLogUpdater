@@ -98,7 +98,9 @@ class RevisionUpdater
                 # Remove the old param from the sheet list.
                 remove_field_from_sheet_list( sched, old_rev_name, sub_txn )
 
-                # Delete the old param.
+                # Delete the old param. As of 2014 Update 1, this leaves a greyed-out param in the sheet that can't be clicked or removed if
+                # the param was ever set to a value. It will not leave the param in the sheet if the param was never set. Since I'm setting
+                # every param to No to help with the appearance of the sheet log, these params are never going away.
                 delete_shared_parameter( sched, old_rev_name_param, sub_txn )
 
             end

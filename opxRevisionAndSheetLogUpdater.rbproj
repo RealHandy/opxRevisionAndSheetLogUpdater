@@ -38,6 +38,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dbgp.rb" />
     <Compile Include="revisionUpdater.rb" />
     <Compile Include="sheetRevisionChangeUpdater.rb" />
     <Compile Include="ThisApplication.rb" />

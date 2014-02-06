@@ -10,7 +10,6 @@ require 'dbgp'
 include OPX
 dbgp "Loading sheetRevisionChangeUpdater.rb"
 require 'UpdateSheetRevisions'
-#require 'SheetRevParamEntity'
 
 load_assembly 'RevitAPI'
 load_assembly 'RevitAPIUI'
@@ -92,11 +91,6 @@ class SheetRevisionChangeUpdater
                         sub_txn ||= get_and_start_subtxn( doc )
                         add_rev_id_to_sheet( sheet, rev.Id, sub_txn )
                         set_rev_update_to_force( sheet, rev.Id )
-                        # If there are no rev clouds for this rev in this sheet (which should be so), set the manually checked flag in the param.
-                        #if not sheet_has_rev_clouds_for_revision( sheet, rev.Id )
-                            #set_sheet_param_flag( sheet_param, "manually_checked", true )
-                            #set_sheet_param_flag( sheet_param, "has_rev_clouds", false )
-                        #end
                     elsif ( (not is_checked) and sheet_contains_removable_rev_id( sheet, rev.Id ) )
                         # The param is NOT checked but the revision IS in Revisions on Sheet and removable, so remove the rev from Revisions on Sheet.
                         # NOTE: as of 2014 Update 1, Revit works differently (and better) with RevisionsOnSheet, but there is no way to tell
@@ -107,9 +101,6 @@ class SheetRevisionChangeUpdater
                         sub_txn ||= get_and_start_subtxn( doc )
                         remove_rev_id_from_sheet( sheet, rev.Id, sub_txn )
                         set_rev_update_to_force( sheet, rev.Id )
-                        # Unset the manually checked flag in the param.
-                        #set_sheet_param_flag( sheet_param, "manually_checked", false )
-                        #set_sheet_param_flag( sheet_param, "has_rev_clouds", false )
                     elsif ( (not is_checked) and sheet_contains_rev_id( sheet, rev.Id ) )
                         # The param is NOT checked, but the revision IS in Revisions on Sheet and is NOT removable, so recheck the param.
                         # It can't be marked unchecked because there is a revision cloud revision for this rev name.
@@ -117,7 +108,6 @@ class SheetRevisionChangeUpdater
                         TaskDialog.Show( "Macro", "A revision cloud exists for #{param.Definition.Name} on this sheet, so you cannot uncheck it." )
                         sub_txn ||= get_and_start_subtxn( doc )
                         set_rev_param_on_sheet( sheet, sheet_param, 1 )
-                        #set_sheet_param_flag( sheet_param, "has_rev_clouds", true )
                     end
                 end
             end
@@ -138,46 +128,14 @@ class SheetRevisionChangeUpdater
                     rev = revs_map[param.Definition.Name]
                     if is_checked and (not sheet_contains_rev_id( sheet, rev.Id ))
                         # The param is checked but the revision isn't in Revisions on Sheet, so uncheck the param.
-                        # We have to know whether there was a changed rev cloud here.
-                        # If there was NOT a rev cloud,
-                        # then the user unchecked the Revisions on Sheet checkbox, so uncheck the param.
-                        # If there WAS a rev cloud,
-                        # then the user deleted a rev cloud, and if the manually checked flag is set, the
-                        # rev should remain checked, so instead of unchecking the param, add the rev back in.
-                        if not sheet_param_flag_value_is_set( sheet_param, "has_rev_clouds" )
-                            dbgp "Unchecking checkbox for param #{param.Definition.Name}"
-                            sub_txn ||= get_and_start_subtxn( doc )
-                            set_rev_param_on_sheet( sheet, sheet_param, 0 )
-                            #set_sheet_param_flag( sheet_param, "manually_checked", false )
-                        else
-                            if sheet_param_flag_value_is_set( sheet_param, "manually_checked" )
-                                dbgp "Re-adding the rev for the manually checked param #{param.Definition.Name}"
-                                sub_txn ||= get_and_start_subtxn( doc )
-                                add_rev_id_to_sheet( sheet, rev.Id, sub_txn )
-                                set_rev_update_to_force( sheet, rev.Id )
-                                #set_sheet_param_flag( sheet_param, "has_rev_clouds", false )
-                            else    
-                                dbgp "Unchecking checkbox for deleted rev cloud for param #{param.Definition.Name}"
-                                sub_txn ||= get_and_start_subtxn( doc )
-                                set_rev_param_on_sheet( sheet, sheet_param, 0 )
-                                #set_sheet_param_flag( sheet_param, "has_rev_clouds", false )
-                            end
-                        end
+                        dbgp "Unchecking checkbox for param #{param.Definition.Name}"
+                        sub_txn ||= get_and_start_subtxn( doc )
+                        set_rev_param_on_sheet( sheet, sheet_param, 0 )
                     elsif (not is_checked) and sheet_contains_rev_id( sheet, rev.Id )
                         # The param is NOT checked but the revision IS in Revisions on Sheet, so check the param.
                         dbgp "Turning on checkbox for param #{param.Definition.Name}"
                         sub_txn ||= get_and_start_subtxn( doc )
                         set_rev_param_on_sheet( sheet, sheet_param, 1 )
-                        # If there are rev clouds for the revision, remember that by setting the flag.
-                        # If there are no rev clouds for the revision, then set the manually checked flag
-                        # (b/c the user checked the checkbox in Revisions on Sheet).
-                        if sheet_has_rev_clouds_for_revision( sheet, rev.Id )
-                            #set_sheet_param_flag( sheet_param, "manually_checked", false )
-                            #set_sheet_param_flag( sheet_param, "has_rev_clouds", true )
-                        else
-                            #set_sheet_param_flag( sheet_param, "manually_checked", true )
-                            #set_sheet_param_flag( sheet_param, "has_rev_clouds", false )
-                        end
                     end
                 end
             end
@@ -192,28 +150,6 @@ class SheetRevisionChangeUpdater
             report_error( e.to_s )
             raise
         end
-    end
-
-
-    #----------------
-    def set_sheet_param_flag( sheet_param, flag_name, bool_value )
-        # This was part of the effort to work around RevisionsOnSheet deficiencies,
-        # but 2014 Update 1 fixed them, so this is all commented out for now.
-        #manually_checked_entity = OPX::SheetRevParamEntity.create()
-        #manually_checked_entity.Set( flag_name, bool_value )
-        #sheet_param.SetEntity( manually_checked_entity )
-    end
-
-    #----------------
-    def sheet_param_flag_value_is_set( sheet_param, flag_name )
-        # This was part of the effort to work around RevisionsOnSheet deficiencies,
-        # but 2014 Update 1 fixed them, so this is all commented out for now.
-        flag_value = false
-        #entity = sheet_param.GetEntity( OPX::SheetRevParamEntity.schema_def )
-        #if entity.IsValid()
-        #    flag_value = entity.method(:Get).of(System::Boolean).call( flag_name )
-        #end
-        return flag_value
     end
 
     #----------------
